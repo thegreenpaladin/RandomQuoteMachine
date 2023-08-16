@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  width: 90%;
+  max-width: 500px;
+  height: max-content;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+.top {
+  margin-bottom: 40px;
+}
+
+.quote-text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#new-quote {
+  text-decoration: none;
+  background-color: white;
+  padding: 9px 15px;
+  float: right;
+  border: none;
+  border-radius: 2px;
+}
+#tweet-quote {
+  background-color: white;
+  padding: 8px 25px;
+  float: left;
+  text-align: center;
+  color: black;
+  border-radius: 2px;
+}
